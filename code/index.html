@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>SNAKE!!</title>
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+	<meta charset="utf-8"/>
+</head>
+<body onkeydown="getKeyChar (event);">
+<!-- onkeypress="getKeyChar (event);" -->
+	<h1>Snake</h1>
+	<div id="content">
+	<div id="info">
+	<strong>INSTRUCTIONS: </strong>
+
+	</div>
+	<div id="game">
+		<div id="commandControl">
+			<button type="button" id="Start">Start</button>
+			<button type="button" id="switchBounds">Bounds</button>
+		</div>
+		<div id="surface"></div>
+		<div id="msg"></div>
+	</div>
+</body>
+<script type="text/javascript" src="./scripts/board.js"></script>
+<script type="text/javascript" src="./scripts/snake.js"></script>
+<script type="text/javascript" src="./scripts/app.js"></script>
+</html>
